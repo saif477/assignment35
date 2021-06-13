@@ -1,0 +1,104 @@
+.sikim{
+    background: #d8e4f0;
+}
+
+.max-bd h5 {
+	color: blue;
+	font-size: 16px;
+	margin-top: 70px;
+	font-weight: 600;
+}
+.max-bd h1{
+    font-weight: 600;
+}
+.max-bd p {
+	color: #767676;
+	margin: 0px 125px;
+}
+.kikor {
+	border: 2px solid blue;
+	max-width: 50px;
+	margin-left: 623px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+/* jklo */
+.jklo {
+	background: #fefeff;
+	height: 585px;
+	width: auto;
+	margin-top: 45px;
+	border: 1px solid #fefeff;
+	margin-bottom: 45px;
+}
+.jklo h5 {
+	font-weight: 600;
+	margin-top: 25px;
+}
+.jklo h1 {
+	font-weight: 600;
+	font-size: 75px;
+	margin-top: 30px;
+	margin-bottom: -5px;
+}
+.jklo p{
+	color: #767676;
+	margin-bottom: 40px;
+}
+.jklo h4 {
+	color: #767676;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-size: 20px;
+}
+
+.gjkl {
+	border: 1px solid black;
+	margin: 64px;
+}
+
+/* tania */
+
+.tania{
+	background: url(./img/free-bg.jpg);
+	height: 600px;
+	width: auto;
+	background-size: cover;
+	position: relative;
+	z-index: 9;
+}
+.tania::after{
+	content: "";
+	top: 0;
+	left: 0;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: rgba(88, 72, 224, .8);
+	z-index: -1;
+}
+.jibon{
+	color: #fefeff;
+}
+.jibon h5 {
+	margin-top: 160px;
+}
+.jibon h1{
+	margin-top: 40px;
+}
+.jibon p {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.bister {
+	border: 1px solid #f7f7f9;
+	margin-left: 642px;
+	margin-right: 589px;
+}
+.btn-dfg {
+	color: #0716f2bf;
+	background-color: #f8f9fa;
+	border-color: #f8f9fa;
+	font-weight: 600;
+}
